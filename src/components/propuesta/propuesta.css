@@ -1,0 +1,7 @@
+/* PropuestaTable.css */
+
+/* Estilo para los días no seleccionables */
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background-color: red; /* Fondo rojo */
+    color: white; /* Letras blancas */
+}
