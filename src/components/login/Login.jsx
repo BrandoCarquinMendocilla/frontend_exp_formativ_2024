@@ -83,7 +83,7 @@ export const Login = () => {
             console.log("Login successful", codeResponse)
             setUserG(codeResponse)
 
-            axios.get(`https://www.googleapis.com/oauth2/v1/userinfo?alt=json&access_token=ya29.a0AXooCgvv902PjboW9BqxdWkspClJJ7t-yj1mtMXQgjztdhyA_ix0d0nTddisf88YnYNf-FupYQ7swi5PSkqj0R3FtsDcv_hFoFG_b8jK1ltkEGk8lxPpOuC-JsbixZk3kqPYYEz7Ds2g9Ch6SCuyIXImw7Zx7BXYskIaCgYKAXESARMSFQHGX2Mi45EaKWrjXcmvz3ZH_ssgVQ0170`)
+            axios.get(`https://www.googleapis.com/oauth2/v1/userinfo?alt=json&access_token=ya29.a******`)
             .then((res) => {
                 console.log("res", res)
                 const data = res.data
